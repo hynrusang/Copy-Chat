@@ -3,7 +3,6 @@ import ProtectedRoute from "./components/Route/ProtectedRoute";
 
 import Landing from "./pages/Landing/Landing";
 
-import Login from "./pages/Landing/SubMenu/Login";
 import Logout from "./pages/Landing/SubMenu/Logout";
 import Register from "./pages/Landing/SubMenu/Register";
 import ForgetPassword from "./pages/Landing/SubMenu/ForgetPassword";
@@ -18,7 +17,6 @@ export default function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={Landing} />
-          <Route path="/login/" Component={Login} />
           <Route path="/logout/" Component={Logout} />
           <Route path="/register/" Component={Register} />
           <Route path="/forgot-password/" Component={ForgetPassword} />

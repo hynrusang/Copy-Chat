@@ -52,16 +52,13 @@ export default function Register() {
             spacing={12}
             sx={{ marginTop: 6 }}
           >
-            <Typography variant="h3" sx={{ py: 3 }}>
-              Join us
-            </Typography>
 
-            <Typography variant="h6" sx={{ py: 1 }}>
+            <Typography variant="h4" sx={{ py: 3 }}>
               Create your account
             </Typography>
 
             <form onSubmit={handleRegister}>
-              <FormControl>
+              <FormControl sx={{ padding: 2 }}>
                 <TextField
                   id="username"
                   autoComplete="username"
@@ -98,7 +95,6 @@ export default function Register() {
                   placeholder="Email"
                   sx={{ p: 2 }}
                 />
-
                 <TextField
                   id="password"
                   InputProps={{
@@ -117,7 +113,7 @@ export default function Register() {
                   placeholder="Password"
                   sx={{ p: 2 }}
                 />
-                <FormLabel>
+                <FormLabel style={{fontSize: "0.9em"}}>
                   <span>
                     I agree all statements in{" "}
                     <Mlink href="https://google.com">terms of service</Mlink>
@@ -131,9 +127,12 @@ export default function Register() {
             </form>
 
             <footer>
-              <Link to="/">
-                <Typography variant="body2">Back to Landing Page.</Typography>
-              </Link>
+              <Typography variant="body2">
+                Did you forgot password? <br />
+                <Link to="/">
+                  <Button variant="text">Back to Login Page.</Button>
+                </Link>
+              </Typography>
             </footer>
           </Grid>
         </div>
