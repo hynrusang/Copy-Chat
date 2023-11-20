@@ -9,7 +9,6 @@ export default function GroupBody() {
       sx={{
         display: "flex",
         flexDirection: "column",
-        border: "2px dashed gray",
         width: "100%",
       }}
     >
@@ -18,7 +17,6 @@ export default function GroupBody() {
         sx={{
           display: "flex",
           flexDirection: "row-reverse",
-          border: "2px dashed gray",
           height: "100%",
           minHeight: 0,
         }}

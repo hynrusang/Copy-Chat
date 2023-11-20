@@ -4,7 +4,9 @@ import { Link } from "react-router-dom";
 
 export default function DashBoardIcon() {
   return (
-    <div>
+    <div style={{
+      marginBottom: "8px"
+    }}>
       <Link to={"/@me/"}>
         <Tooltip title="To My DashBoard">
           <Fab>

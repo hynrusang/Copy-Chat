@@ -7,9 +7,11 @@ export default function Sidebar() {
   return (
     <Box
       sx={{
+        maxWidth: "60px",
+        height: "100vh",
         display: "flex",
         flexDirection: "row",
-        border: "2px gray dashed",
+        background: "aliceblue",
       }}
     >
       <SidebarIcons />

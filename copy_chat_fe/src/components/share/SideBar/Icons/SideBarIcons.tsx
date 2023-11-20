@@ -16,7 +16,6 @@ export default function SidebarIcons() {
           display: "flex",
           float: "left",
           flexDirection: "column",
-          border: "1px solid gray",
         }}
       >
         <DashBoardIcon />
