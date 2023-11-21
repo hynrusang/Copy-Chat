@@ -37,7 +37,7 @@ export default function Register() {
   if (isCreated) {
     return (
       <Wrapper>
-        <Navigate to={`/login/`} />;
+        <Navigate to={`/`} />;
       </Wrapper>
     );
   } else {

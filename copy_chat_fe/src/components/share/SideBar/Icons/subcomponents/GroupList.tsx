@@ -49,6 +49,7 @@ export default function GroupList() {
       onContextMenu={handleManu(e.id)}
       style={{
         border: is_active(e.id) ? "1px solid white" : "",
+        marginBottom: "8px"
       }}
     >
       <Menu

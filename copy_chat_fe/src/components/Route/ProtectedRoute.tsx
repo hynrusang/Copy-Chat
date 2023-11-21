@@ -9,6 +9,6 @@ export default function ProtectedRoute({
 }) {
   const logined = useSelector((s: Store.AppState) => s.auth.logined);
   const location = useLocation();
-  if (!logined) return <Navigate to={`/login/`} state={{ from: location }} />;
+  if (!logined) return <Navigate to={`/`} state={{ from: location }} />;
   return children;
 }

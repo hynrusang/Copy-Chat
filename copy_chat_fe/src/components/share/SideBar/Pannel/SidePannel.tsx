@@ -11,7 +11,10 @@ export default function SidePannel() {
     return null;
   } else {
     return (
-      <div className="sidePannel">
+      <div style={{
+        marginTop: "46px",
+        marginLeft: "2px"
+      }} className="sidePannel">
         {group && <GroupPannel />}
         {!group && <MyPannel />}
       </div>
