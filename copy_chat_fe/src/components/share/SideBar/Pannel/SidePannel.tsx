@@ -13,7 +13,9 @@ export default function SidePannel() {
     return (
       <div style={{
         marginTop: "46px",
-        marginLeft: "2px"
+        marginLeft: "2px",
+        background: "aliceblue",
+        zIndex: 1
       }} className="sidePannel">
         {group && <GroupPannel />}
         {!group && <MyPannel />}
